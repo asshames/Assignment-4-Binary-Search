@@ -6,7 +6,7 @@ class SelectionSort{
 public:
     SelectionSort();
     ~SelectionSort();
-    void SelectionSort(int arr[], int arr_size);
+    void SelectionSorter(int arr[], int arr_size);
 
 };
 
