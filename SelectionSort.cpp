@@ -22,7 +22,7 @@ inline void Swap(int &first, int &second)
 
 void SelectionSort::SelectionSorter(int arr[], int arr_size)
 {
-    cout<<"Showing Here Every Step for Selection Sort in Array Base"<<endl;
+    cout<<"Showing Here Every Step for Selection Sort Using Array Base"<<endl;
     for(int index = 0; index < arr_size-1; ++index)
     {
         int Min = index;
@@ -36,4 +36,24 @@ void SelectionSort::SelectionSorter(int arr[], int arr_size)
         }
         cout<<""<<endl;
     }
+}
+
+void SelectionSort::SelectioSorterVector(vector <int> &data)
+{
+    cout<<"Showing Here Every Step for Selection Sort Using Vector"<<endl;
+    int index,number,first_element,size = data.size();
+    for(index=0; index<size+1; index++)
+    {
+        first_element = index;
+        for(number = index+1; number < size; number++)
+        {
+            if (data[number] < data[first_element])
+            first_element = number;
+        }
+        swap(data[first_element], data[index]);
+        for (vector<int>::iterator value = data.begin(); value != data.end(); ++value)
+        cout << *value <<" " ;
+        cout<<""<<endl;
+     }
+
 }

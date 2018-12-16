@@ -21,6 +21,13 @@ int main()
     }
     cout<<"\n\n\n"<<endl;
 
+    cout<<"Vector Part"<<endl;
+    vector<int> vectorSelectionSort(arr,arr+sizeof(arr)/sizeof(int));
+    ObjectSelection.SelectioSorterVector(vectorSelectionSort);
+    cout<<"Selection Sort Final Output for Vector : "<<endl;
+    for(int index=0;index<vectorSelectionSort.size();index++)
+        cout<<vectorSelectionSort[index]<<" ";
+    cout<<"\n"<<endl;
 
     return 0;
 }
