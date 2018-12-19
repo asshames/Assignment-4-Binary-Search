@@ -16,12 +16,12 @@ BubbleSort::~BubbleSort()
 void BubbleSort:: BubbleSorter(int *array, int Size)
 {
     cout<<"Showing Here Every Step for Bubble Sort Using Array Base"<<endl;
-    bool swapped = true;
+    bool flag = true;
     int number = 0;
     int temp;
-    while (swapped)
+    while (flag)
     {
-        swapped = false;
+        flag = false;
         number++;
         for (int index = 0; index < Size - number; ++index)
         {
@@ -35,7 +35,7 @@ void BubbleSort:: BubbleSorter(int *array, int Size)
                     cout<<array[index]<<" ";
                 }
                 cout<<""<<endl;
-                swapped = true;
+                flag = true;
             }
         }
     }
@@ -44,12 +44,12 @@ void BubbleSort:: BubbleSorter(int *array, int Size)
 void BubbleSort:: BubbleSorterVector(vector<int>& data)
 {
     cout<<"Showing Here Every Step for Bubble Sort Using Vector"<<endl;
-    bool swapped = true;
+    bool flag = true;
     int number = 0;
     int temp;
-    while (swapped)
+    while (flag)
     {
-        swapped = false;
+        flag = false;
         number++;
         for (int index = 0; index < data.size()- number; ++index)
         {
@@ -58,7 +58,7 @@ void BubbleSort:: BubbleSorterVector(vector<int>& data)
                 temp = data[index];
                 data[index] = data[index+ 1];
                 data[index + 1] = temp;
-                swapped = true;
+                flag = true;
                 for (vector<int>::iterator value = data.begin(); value != data.end(); ++value)
                     cout<<*value<<" ";
                 cout<<""<<endl;

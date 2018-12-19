@@ -1,9 +1,10 @@
 # depslib dependency file v1.0
-1545250805 source:d:\study\18-fall\new folder\cse225\assignment\assignment-4\assignment-4 binary search\main.cpp
+1545253478 source:d:\study\18-fall\new folder\cse225\assignment\assignment-4\assignment-4 binary search\main.cpp
 	<iostream>
 	"SelectionSort.h"
 	"InsertionSort.h"
 	"MergeSort.h"
+	"BubbleSort.h"
 
 1544986120 d:\study\18-fall\new folder\cse225\assignment\assignment-4\assignment-4 binary search\selectionsort.cpp
 	"SelectionSort.h"
@@ -17,7 +18,7 @@
 	"SelectionSort.h"
 	<iostream>
 
-1545245963 source:d:\study\18-fall\new folder\cse225\assignment\assignment-4\assignment-4 binary search\insertionsort.cpp
+1545252516 source:d:\study\18-fall\new folder\cse225\assignment\assignment-4\assignment-4 binary search\insertionsort.cpp
 	"InsertionSort.h"
 	<iostream>
 
@@ -29,7 +30,15 @@
 	<vector>
 	<iostream>
 
-1545250849 source:d:\study\18-fall\new folder\cse225\assignment\assignment-4\assignment-4 binary search\mergesort.cpp
+1545252516 source:d:\study\18-fall\new folder\cse225\assignment\assignment-4\assignment-4 binary search\mergesort.cpp
 	"MergeSort.h"
+	<iostream>
+
+1545253066 source:d:\study\18-fall\new folder\cse225\assignment\assignment-4\assignment-4 binary search\bubblesort.cpp
+	"BubbleSort.h"
+	<iostream>
+
+1545252828 d:\study\18-fall\new folder\cse225\assignment\assignment-4\assignment-4 binary search\bubblesort.h
+	<vector>
 	<iostream>
 
