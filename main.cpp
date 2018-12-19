@@ -38,14 +38,14 @@ int main()
     }
     InsertionSort ObjectInsertion;
     ObjectInsertion.InsertionSorter(arrayInsertionSort,8);
-     cout<<"Insertion Sort Final Output for Array Base : "<<endl;
+    cout<<"Insertion Sort Final Output for Array Base : "<<endl;
     for(int index=0; index<8; index++)
     {
         cout<<arrayInsertionSort[index]<<" ";
     }
     cout<<"\n\n\n"<<endl;
     cout<<"Vector Part"<<endl;
-    std::vector<int> vectorInsertionSort(arr,arr+sizeof(arr)/sizeof(int));
+    vector<int> vectorInsertionSort(arr,arr+sizeof(arr)/sizeof(int));
     ObjectInsertion.InsertionSorterVector(vectorInsertionSort);
     cout<<"Insertion Sort Final Output for Vector : "<<endl;
     for(int index=0; index<vectorInsertionSort.size(); index++)
