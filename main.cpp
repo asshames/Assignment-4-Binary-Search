@@ -1,6 +1,7 @@
 #include <iostream>
 #include "SelectionSort.h"
 #include "InsertionSort.h"
+#include "MergeSort.h"
 
 using namespace std;
 
@@ -56,7 +57,30 @@ int main()
     }
     cout<<"\n"<<endl;
     cout<<"----------------------------------------------------------------------------------------"<<endl;
-
+    int arrayMergeSort[8];
+    cout<<"\nArray Base"<<endl;
+    for(int index=0;index<8;index++)
+    {
+        arrayMergeSort[index]=arr[index];
+    }
+    MergeSort ObjectMerge;
+    ObjectMerge.MergeSorter(arrayMergeSort,8);
+    cout<<"Merge Sort Final Output for Array Base : "<<endl;
+    for(int index=0;index<8;index++)
+    {
+        cout<<arrayMergeSort[index]<<" ";
+    }
+    cout<<"\n\n\n"<<endl;
+    cout<<"Vector Part"<<endl;
+    vector<int> vectorMergeSort(arr,arr+sizeof(arr)/sizeof(int));
+    ObjectMerge.MergeSorterVector(vectorMergeSort);
+    cout<<"Merge Sort Final Output for Vector : "<<endl;
+    for(int index=0; index<vectorMergeSort.size(); index++)
+    {
+        cout<<vectorMergeSort[index]<<" ";
+    }
+    cout<<"\n"<<endl;
+    cout<<"----------------------------------------------------------------------------------------"<<endl;
 
 
     return 0;
