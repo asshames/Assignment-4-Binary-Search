@@ -14,7 +14,7 @@ InsertionSort::~InsertionSort()
 
 void InsertionSort::InsertionSorter(int arr[], int arr_size)
 {
-    cout<<"Insertion Sort Steps for Array::"<<endl;
+    cout<<"Showing Here Every Step for Insertion Sort Steps Using Array Base"<<endl;
     if(arr_size > 1)
     {
         int size = arr_size;
@@ -41,7 +41,7 @@ void InsertionSort::InsertionSorter(int arr[], int arr_size)
 
 void InsertionSort::InsertionSorterVector(vector<int>& data)
 {
-    cout<<"Insertion Sort Steps for Vector::"<<endl;
+    cout<<"Showing Here Every Step for Insertion Sort Steps Using Vector"<<endl;
     if(data.size() > 1)
     {
         for(int index = 1; index< data.size(); index++)

@@ -53,7 +53,7 @@ void MergeSortHelper(int arr[], int low, int high)
 
 void MergeSort::MergeSorter(int arr[], int arr_size)
 {
-    cout<<"Steps of Merge Sort for Array::"<<endl;
+    cout<<"Showing Here Every Step for Merge Sort Using Array Base"<<endl;
     MergeSortHelper(arr, 0, arr_size-1);
 }
 
@@ -95,6 +95,6 @@ void MergeSortHelperVector(std::vector<int>& data, int low, int high)
 
 void MergeSort::MergeSorterVector(vector<int> &data)
 {
-    cout<<"Steps of Merge Sort for Vector::"<<endl;
+    cout<<"Showing Here Every Step for Merge Sort Using Vector"<<endl;
     MergeSortHelperVector(data,0,data.size()-1);
 }
