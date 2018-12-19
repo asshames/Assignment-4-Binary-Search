@@ -1,7 +1,8 @@
 # depslib dependency file v1.0
-1544988339 source:d:\study\18-fall\new folder\cse225\assignment\assignment-4\assignment-4 binary search\main.cpp
+1545244162 source:d:\study\18-fall\new folder\cse225\assignment\assignment-4\assignment-4 binary search\main.cpp
 	<iostream>
 	"SelectionSort.h"
+	"InsertionSort.h"
 
 1544986120 d:\study\18-fall\new folder\cse225\assignment\assignment-4\assignment-4 binary search\selectionsort.cpp
 	"SelectionSort.h"
@@ -13,5 +14,13 @@
 
 1544988366 source:d:\study\18-fall\new folder\cse225\assignment\assignment-4\assignment-4 binary search\selectionsort.cpp
 	"SelectionSort.h"
+	<iostream>
+
+1545244534 source:d:\study\18-fall\new folder\cse225\assignment\assignment-4\assignment-4 binary search\insertionsort.cpp
+	"InsertionSort.h"
+	<iostream>
+
+1545242771 d:\study\18-fall\new folder\cse225\assignment\assignment-4\assignment-4 binary search\insertionsort.h
+	<vector>
 	<iostream>
 
