@@ -27,7 +27,9 @@ int main()
     ObjectSelection.SelectioSorterVector(vectorSelectionSort);
     cout<<"Selection Sort Final Output for Vector : "<<endl;
     for(int index=0;index<vectorSelectionSort.size();index++)
+    {
         cout<<vectorSelectionSort[index]<<" ";
+    }
     cout<<"\n"<<endl;
     cout<<"----------------------------------------------------------------------------------------"<<endl;
     int arrayInsertionSort[8];
@@ -49,7 +51,9 @@ int main()
     ObjectInsertion.InsertionSorterVector(vectorInsertionSort);
     cout<<"Insertion Sort Final Output for Vector : "<<endl;
     for(int index=0; index<vectorInsertionSort.size(); index++)
+    {
         cout<<vectorInsertionSort[index]<<" ";
+    }
     cout<<"\n"<<endl;
     cout<<"----------------------------------------------------------------------------------------"<<endl;
 

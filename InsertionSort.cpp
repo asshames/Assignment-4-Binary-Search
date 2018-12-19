@@ -58,7 +58,7 @@ void InsertionSort::InsertionSorterVector(vector<int>& data)
 
             for (vector<int>::iterator value = data.begin();value != data.end(); ++value)
                 cout << *value <<" ";
-                cout<<""<<endl;
+            cout<<""<<endl;
         }
     }
 }
